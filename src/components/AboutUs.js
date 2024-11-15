@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 // import aboutImage from '../assets/img/about.png';
 
 // Use this instead
-const aboutImage = env.PUBLIC_URL + '/assets/img/about.png';
+const aboutImage = process.env.PUBLIC_URL + '/assets/img/about.png';
 
 const AboutUs = () => {
   const skillSectionRef = useRef(null);
