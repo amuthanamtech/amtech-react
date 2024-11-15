@@ -5,6 +5,7 @@ import portfolio3 from '../assets/img/portfolio-3.jpg';
 import portfolio4 from '../assets/img/portfolio-4.jpg';
 import portfolio5 from '../assets/img/portfolio-5.jpg';
 import portfolio6 from '../assets/img/portfolio-5.jpg';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -26,8 +27,8 @@ const Footer = () => {
                     </div>
                     <div className="col-md-6 col-lg-3">
                         <p className="section-title text-white h5 mb-4">Quick Link<span></span></p>
-                        <a className="btn btn-link" href="">About Us</a>
-                        <a className="btn btn-link" href="">Contact Us</a>
+                        <Link to={'/about'} className="btn btn-link">About Us</Link>
+                        <Link to={'/contact'} className="btn btn-link">Contact</Link>
                         <a className="btn btn-link" href="">Privacy Policy</a>
                         <a className="btn btn-link" href="">Terms & Condition</a>
                         <a className="btn btn-link" href="">Career</a>
@@ -59,8 +60,8 @@ const Footer = () => {
                         <p className="section-title text-white h5 mb-4">Newsletter<span></span></p>
                         <p>Stay updated with our latest news, insights, and exclusive offers. Subscribe to our newsletter today!</p>
                         <div className="position-relative w-100 mt-3">
-                            <input className="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email"  />
-                                <button type="button" className="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i className="fa fa-paper-plane text-primary fs-4"></i></button>
+                            <input id="YourEmail" name='email' className="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" autoComplete="email" />
+                            <button type="button" className="btn shadow-none position-absolute top-0 end-0 mt-0 me-2"><i className="fa fa-paper-plane text-primary fs-4"></i></button>
                         </div>
                     </div>
                 </div>
@@ -69,16 +70,16 @@ const Footer = () => {
                 <div className="copyright">
                     <div className="row">
                         <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a className="border-bottom" href="#">AmTechDigital.co</a>, All Right Reserved.
+                            &copy; <a className="border-bottom" href="">AmTechDigital.co</a>, All Right Reserved.
 
 
                         </div>
                         <div className="col-md-6 text-center text-md-end">
                             <div className="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <Link to={"/"}>Home</Link>
+                                <Link to={'/'}>Cookies</Link>
+                                <Link to={'/'}>Help</Link>
+                                <Link to={'/'}>FQAs</Link>
                             </div>
                         </div>
                     </div>

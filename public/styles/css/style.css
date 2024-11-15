@@ -217,12 +217,12 @@ h6,
     margin-bottom: 6rem;
     padding: 18rem 0;
     background:
-        url(../assets/img/blob-top-left.png),
-        url(../assets/img/blob-top-right.png),
-        url(../assets/img/blob-bottom-left.png),
-        url(../assets/img/blob-bottom-right.png),
-        url(../assets/img/blob-center.png),
-        url(../assets/img/bg-bottom.png);
+        url(../../assets/img/blob-top-left.png),
+        url(../../assets/img/blob-top-right.png),
+        url(../../assets/img/blob-bottom-left.png),
+        url(../../assets/img/blob-bottom-right.png),
+        url(../../assets/img/blob-center.png),
+        url(../../assets/img/bg-bottom.png);
     background-position:
         left 0px top 0px,
         right 0px top 0px,
@@ -325,11 +325,11 @@ h6,
 .fact {
     margin: 2rem 0;
     background:
-        url(../assets/img/blob-top-left.png),
-        url(../assets/img/blob-top-right.png),
-        url(../assets/img/blob-bottom-left.png),
-        url(../assets/img/blob-bottom-right.png),
-        url(../assets/img/blob-center.png);
+        url(../../assets/img/blob-top-left.png),
+        url(../../assets/img/blob-top-right.png),
+        url(../../assets/img/blob-bottom-left.png),
+        url(../../assets/img/blob-bottom-right.png),
+        url(../../assets/img/blob-center.png);
     background-position:
         left 0px top 0px,
         right 0px top 0px,
@@ -363,14 +363,14 @@ h6,
     align-items: center;
     justify-content: center;
     color: var(--light);
-    background: url(../assets/img/blob-primary.png) center center no-repeat;
+    background: url(../../assets/img/blob-primary.png) center center no-repeat;
     background-size: contain;
     transition: .5s;
 }
 
 .service-item:hover .service-icon {
     color: var(--dark);
-    background: url(../assets/img/blob-secondary.png) center center no-repeat;
+    background: url(../../assets/img/blob-secondary.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -448,16 +448,17 @@ h6,
     opacity: 1;
 }
 
+  
 
 /*** Newsletter ***/
 .newsletter {
     margin: 2rem 0;
     background:
-        url(../assets/img/blob-top-left.png),
-        url(../assets/img/blob-top-right.png),
-        url(../assets/img/blob-bottom-left.png),
-        url(../assets/img/blob-bottom-right.png),
-        url(../assets/img/blob-center.png);
+        url(../../assets/img/blob-top-left.png),
+        url(../../assets/img/blob-top-right.png),
+        url(../../assets/img/blob-bottom-left.png),
+        url(../../assets/img/blob-bottom-right.png),
+        url(../../assets/img/blob-center.png);
     background-position:
         left 0px top 0px,
         right 0px top 0px,
@@ -518,8 +519,8 @@ h6,
     margin-top: 2rem;
     padding-top: 9rem;
     background:
-        url(../assets/img/bg-top.png),
-        url(../assets/img/map.png);
+        url(../../assets/img/bg-top.png),
+        url(../../assets/img/map.png);
     background-position:
         center top,
         center center;
