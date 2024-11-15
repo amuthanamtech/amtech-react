@@ -106,7 +106,7 @@ const Projects = () => {
                   <a className="btn btn-square btn-outline-light mx-1" href={project.image} data-lightbox="portfolio">
                     <i className="fa fa-eye"></i>
                   </a>
-                  <a className="btn btn-square btn-outline-light mx-1" href="#">
+                  <a className="btn btn-square btn-outline-light mx-1" href="/">
                     <i className="fa fa-link"></i>
                   </a>
                 </div>

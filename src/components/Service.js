@@ -16,7 +16,7 @@ const Service = () => {
                             </div>
                             <h5 className="mb-3">SEO Optimization</h5>
                             <p className="m-0">Optimize search rankings with quality backlinks and targeted keyword strategies.</p>
-                            <a className="btn btn-square" href=""><i className="fa fa-arrow-right"></i></a>
+                            <a className="btn btn-square" href="/"><i className="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
