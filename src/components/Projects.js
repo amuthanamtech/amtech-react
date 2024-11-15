@@ -1,10 +1,18 @@
 import React ,{useState} from 'react';
-import portfolio_1 from '../assets/img/portfolio-1.jpg';
-import portfolio_2 from '../assets/img/portfolio-2.jpg';
-import portfolio_3 from '../assets/img/portfolio-3.jpg';
-import portfolio_4 from '../assets/img/portfolio-4.jpg';
-import portfolio_5 from '../assets/img/portfolio-5.jpg';
-import portfolio_6 from '../assets/img/portfolio-6.jpg';
+
+// import portfolio_1 from '../assets/img/portfolio-1.jpg';
+// import portfolio_2 from '../assets/img/portfolio-2.jpg';
+// import portfolio_3 from '../assets/img/portfolio-3.jpg';
+// import portfolio_4 from '../assets/img/portfolio-4.jpg';
+// import portfolio_5 from '../assets/img/portfolio-5.jpg';
+// import portfolio_6 from '../assets/img/portfolio-6.jpg';
+
+const portfolio_1 = process.env.PUBLIC_URL + '/assets/img/portfolio-1.jpg';
+const portfolio_2 = process.env.PUBLIC_URL + '/assets/img/portfolio-2.jpg';
+const portfolio_3 = process.env.PUBLIC_URL + '/assets/img/portfolio-3.jpg';
+const portfolio_4 = process.env.PUBLIC_URL + '/assets/img/portfolio-4.jpg';
+const portfolio_5 = process.env.PUBLIC_URL + '/assets/img/portfolio-5.jpg';
+const portfolio_6 = process.env.PUBLIC_URL + '/assets/img/portfolio-6.jpg';
 
 const Projects = () => {
   const [filter, setFilter] = useState('*');

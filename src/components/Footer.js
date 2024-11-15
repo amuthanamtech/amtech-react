@@ -1,12 +1,18 @@
 import React from 'react';
-import portfolio1 from '../assets/img/portfolio-1.jpg';
-import portfolio2 from '../assets/img/portfolio-2.jpg';
-import portfolio3 from '../assets/img/portfolio-3.jpg';
-import portfolio4 from '../assets/img/portfolio-4.jpg';
-import portfolio5 from '../assets/img/portfolio-5.jpg';
-import portfolio6 from '../assets/img/portfolio-5.jpg';
+// import portfolio1 from '../assets/img/portfolio-1.jpg';
+// import portfolio2 from '../assets/img/portfolio-2.jpg';
+// import portfolio3 from '../assets/img/portfolio-3.jpg';
+// import portfolio4 from '../assets/img/portfolio-4.jpg';
+// import portfolio5 from '../assets/img/portfolio-5.jpg';
+// import portfolio6 from '../assets/img/portfolio-5.jpg';
 import { Link } from 'react-router-dom';
 
+const portfolio1 = process.env.PUBLIC_URL + '/assets/img/portfolio-1.jpg';
+const portfolio2 = process.env.PUBLIC_URL + '/assets/img/portfolio-2.jpg';
+const portfolio3 = process.env.PUBLIC_URL + '/assets/img/portfolio-3.jpg';
+const portfolio4 = process.env.PUBLIC_URL + '/assets/img/portfolio-4.jpg';
+const portfolio5 = process.env.PUBLIC_URL + '/assets/img/portfolio-5.jpg';
+const portfolio6 = process.env.PUBLIC_URL + '/assets/img/portfolio-6.jpg';
 
 const Footer = () => {
     return (

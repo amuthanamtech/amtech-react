@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../assets/img/amtech-logo.png';
+// import logo from '../assets/img/amtech-logo.png';
 import { Link, useLocation } from 'react-router-dom';
+
+
+const logo = process.env.PUBLIC_URL + '/assets/img/amtech-logo.png';
 
 const Header = () => {
   const location = useLocation();

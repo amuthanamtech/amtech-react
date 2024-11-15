@@ -1,7 +1,8 @@
 import React from 'react';
-import bannerImage from '../assets/img/hero.png';
+// import bannerImage from '../assets/img/hero.png';
 import { Link } from 'react-router-dom';
 
+const bannerImage = process.env.PUBLIC_URL + '/assets/img/hero.png';
 const HeroBanner = () => {
     return (
         <div className="container-xxl position-relative p-0">
