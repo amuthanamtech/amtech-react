@@ -1,5 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import aboutImage from '../assets/img/about.png';
+// Replace the direct import
+// import aboutImage from '../assets/img/about.png';
+
+// Use this instead
+const aboutImage = process.env.PUBLIC_URL + '/assets/img/about.png';
 
 const AboutUs = () => {
   const skillSectionRef = useRef(null);

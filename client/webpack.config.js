@@ -1,11 +1,14 @@
 module.exports = {
-    module: {
-      rules: [
-        {
-          test: /\.(png|jpe?g|gif|svg)$/, // Match .png, .jpg, .jpeg, .gif, and .svg files
-          type: 'asset/resource', // Emit a separate file and export the URL
-        },
-      ],
-    },
-  };
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'static/media/[name].[hash][ext]'
+        }
+      }
+    ]
+  }
+};
   
