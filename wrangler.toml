@@ -22,10 +22,24 @@ kv_namespaces = [
   { binding = "AmTechNamespace", id = "1bd6b0ff783f49f6bd105d72a10ccce4" }
 ]
 
-[env.dev]
+[env.development]
 name = "my-worker-staging"
 route = { pattern = "staging.amtechdigital.co/*", zone_name = "amtechdigital.co" }
 
 kv_namespaces = [
   { binding = "AmTechNamespace", id = "1bd6b0ff783f49f6bd105d72a10ccce4" }
 ]
+[env.development.vars]
+PUBLIC_URL = "staging.example.com"
+API_ACCOUNT_ID = "staging_example_user"
+SERVICE_X_DATA = { URL = "service-x-api.dev.example", MY_ID = 123 }
+
+[env.test.vars]
+PUBLIC_URL = "production.example.com"
+API_ACCOUNT_ID = "production_example_user"
+SERVICE_X_DATA = { URL = "service-x-api.prod.example", MY_ID = 456 }
+
+[env.production.vars]
+PUBLIC_URL = "production.example.com"
+API_ACCOUNT_ID = "production_example_user"
+SERVICE_X_DATA = { URL = "service-x-api.prod.example", MY_ID = 456 }

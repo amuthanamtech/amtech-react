@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 
-const logo = process.env.PUBLIC_URL + '/assets/img/amtech-logo.png';
+const logo = env.PUBLIC_URL + '/assets/img/amtech-logo.png';
 
 const Header = () => {
   const location = useLocation();
