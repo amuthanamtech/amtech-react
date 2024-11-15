@@ -1,0 +1,31 @@
+#account_id = "dc56444c4c955a1653106ccf997c1067"
+#name = "my-react-app"
+#type = "webpack"
+#route = ""
+#workers_dev = true
+#zone_id = ""
+#
+#[site]
+#bucket = "./build"
+#entry-point = "workers-site"
+
+
+# Top-level configuration
+name = "amtechdigital"
+main = "src/index.js"
+compatibility_date = "2022-07-12"
+
+workers_dev = false
+route = { pattern = "amtechdigital.co/*", zone_name = "amtechdigital.co" }
+
+kv_namespaces = [
+  { binding = "<MY_NAMESPACE>", id = "<KV_ID>" }
+]
+
+[env.dev]
+name = "my-worker-staging"
+route = { pattern = "staging.amtechdigital.co/*", zone_name = "amtechdigital.co" }
+
+kv_namespaces = [
+  { binding = "<MY_NAMESPACE>", id = "<STAGING_KV_ID>" }
+]
