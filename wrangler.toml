@@ -1,17 +1,16 @@
-#account_id = "dc56444c4c955a1653106ccf997c1067"
-#name = "my-react-app"
-#type = "webpack"
-#route = ""
-#workers_dev = true
-#zone_id = ""
-#
-#[site]
-#bucket = "./build"
-#entry-point = "workers-site"
+account_id = "f312dc422e06417baae6f181c7e85d69"
+name = "amtechdigital"
+type = "webpack"
+route = ""
+workers_dev = true
+zone_id = ""
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
 
 
 # Top-level configuration
-name = "amtechdigital"
 main = "src/index.js"
 compatibility_date = "2024-06-21"
 
