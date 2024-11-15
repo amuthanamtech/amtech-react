@@ -7,12 +7,12 @@ import React from 'react';
 // import portfolio6 from '../assets/img/portfolio-5.jpg';
 import { Link } from 'react-router-dom';
 
-const portfolio1 = process.env.PUBLIC_URL + '/assets/img/portfolio-1.jpg';
-const portfolio2 = process.env.PUBLIC_URL + '/assets/img/portfolio-2.jpg';
-const portfolio3 = process.env.PUBLIC_URL + '/assets/img/portfolio-3.jpg';
-const portfolio4 = process.env.PUBLIC_URL + '/assets/img/portfolio-4.jpg';
-const portfolio5 = process.env.PUBLIC_URL + '/assets/img/portfolio-5.jpg';
-const portfolio6 = process.env.PUBLIC_URL + '/assets/img/portfolio-6.jpg';
+const portfolio1 = env.PUBLIC_URL + '/assets/img/portfolio-1.jpg';
+const portfolio2 = env.PUBLIC_URL + '/assets/img/portfolio-2.jpg';
+const portfolio3 = env.PUBLIC_URL + '/assets/img/portfolio-3.jpg';
+const portfolio4 = env.PUBLIC_URL + '/assets/img/portfolio-4.jpg';
+const portfolio5 = env.PUBLIC_URL + '/assets/img/portfolio-5.jpg';
+const portfolio6 = env.PUBLIC_URL + '/assets/img/portfolio-6.jpg';
 
 const Footer = () => {
     return (

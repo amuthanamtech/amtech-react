@@ -7,12 +7,12 @@ import React ,{useState} from 'react';
 // import portfolio_5 from '../assets/img/portfolio-5.jpg';
 // import portfolio_6 from '../assets/img/portfolio-6.jpg';
 
-const portfolio_1 = process.env.PUBLIC_URL + '/assets/img/portfolio-1.jpg';
-const portfolio_2 = process.env.PUBLIC_URL + '/assets/img/portfolio-2.jpg';
-const portfolio_3 = process.env.PUBLIC_URL + '/assets/img/portfolio-3.jpg';
-const portfolio_4 = process.env.PUBLIC_URL + '/assets/img/portfolio-4.jpg';
-const portfolio_5 = process.env.PUBLIC_URL + '/assets/img/portfolio-5.jpg';
-const portfolio_6 = process.env.PUBLIC_URL + '/assets/img/portfolio-6.jpg';
+const portfolio_1 = env.PUBLIC_URL + '/assets/img/portfolio-1.jpg';
+const portfolio_2 = env.PUBLIC_URL + '/assets/img/portfolio-2.jpg';
+const portfolio_3 = env.PUBLIC_URL + '/assets/img/portfolio-3.jpg';
+const portfolio_4 = env.PUBLIC_URL + '/assets/img/portfolio-4.jpg';
+const portfolio_5 = env.PUBLIC_URL + '/assets/img/portfolio-5.jpg';
+const portfolio_6 = env.PUBLIC_URL + '/assets/img/portfolio-6.jpg';
 
 const Projects = () => {
   const [filter, setFilter] = useState('*');
