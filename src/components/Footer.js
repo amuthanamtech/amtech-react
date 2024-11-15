@@ -16,8 +16,8 @@ const Footer = () => {
                     <div className="col-md-6 col-lg-3">
                         <p className="section-title text-white h5 mb-4">Address<span></span></p>
                         <p><i className="fa fa-map-marker-alt me-3"></i>Compass Building, Al Shohada Road, AL Hamra Industrial Zone-FZ,Ras Al Khaimah, United Arab Emirates</p>
-                        <p><i className="fa fa-w-alt me-3"></i>+91 9524181451</p>
-                        <p><i className="fa fa-envelope me-3"></i>info@amtechdigital.co</p>
+                        <p><i className="fa fa-w-alt me-3"></i>+971 566088398</p>
+                        <p><i className="fa fa-envelope me-3"></i>hr@amtechdigital.co</p>
                         <div className="d-flex pt-2">
                             <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
