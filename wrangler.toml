@@ -13,13 +13,13 @@
 # Top-level configuration
 name = "amtechdigital"
 main = "src/index.js"
-compatibility_date = "2022-07-12"
+compatibility_date = "2024-06-21"
 
 workers_dev = false
 route = { pattern = "amtechdigital.co/*", zone_name = "amtechdigital.co" }
 
 kv_namespaces = [
-  { binding = "<MY_NAMESPACE>", id = "<KV_ID>" }
+  { binding = "AmTechNamespace", id = "1bd6b0ff783f49f6bd105d72a10ccce4" }
 ]
 
 [env.dev]
@@ -27,5 +27,5 @@ name = "my-worker-staging"
 route = { pattern = "staging.amtechdigital.co/*", zone_name = "amtechdigital.co" }
 
 kv_namespaces = [
-  { binding = "<MY_NAMESPACE>", id = "<STAGING_KV_ID>" }
+  { binding = "AmTechNamespace", id = "1bd6b0ff783f49f6bd105d72a10ccce4" }
 ]
